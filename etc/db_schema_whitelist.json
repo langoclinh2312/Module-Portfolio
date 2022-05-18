@@ -1,0 +1,34 @@
+{
+    "aht_portfolio": {
+        "column": {
+            "id": true,
+            "title": true,
+            "price": true,
+            "categoryid": true,
+            "content": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    },
+    "aht_categories": {
+        "column": {
+            "id": true,
+            "name": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    },
+    "aht_image": {
+        "column": {
+            "image_id": true,
+            "PortfolioId": true,
+            "path": true,
+            "status": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}
